@@ -37,8 +37,7 @@ nav {
     top: 0;
     width: 100%;
     z-index: 1;
-	background-color: #FFFFFF;
-	height: 20vh;
+    background-color: #FFFFFF;
 }
 
 .logo {
@@ -95,7 +94,7 @@ nav .menu-btn,
     align-items: center;
     position: absolute;
     left: 50%;
-    top: 12.5%;
+    top: 50%;
     transform: translate(-50%, -50%);
 }
 
@@ -311,8 +310,8 @@ nav .menu-btn,
 .services {
 	height: 600px;
 	background-color: #ffffff;
-    padding : 0 120px;
-    padding-top: 120px;
+    padding: 2% 10% 0px 10%;
+    margin-top: 200px;
 }
 
 .services-text p:nth-child(1) {
@@ -396,8 +395,8 @@ nav .menu-btn,
 .box-1 p:nth-child(2),
 .box-2 p:nth-child(2),
 .box-3 p:nth-child(2) {
-	color: #000;
-	font-family: poppins;
+	color: #FFFFFF;
+	font-family: calibri;
 	font-size: 23px;
 	line-height: 0px;
 }
@@ -805,8 +804,7 @@ nav .menu-btn,
 	.c-b-heading{
 		font-size: 1.2rem;
 		text-align: center;
-        margin: 0px 10%;
-        color: #000000;
+		margin: 0px 10%;
 	}
 	.name{
 		width:60%;
@@ -828,37 +826,87 @@ nav .menu-btn,
 	}
 }
 
-.box-btn {
-    padding: 3px 20px;
-    background-color:transparent;
-    color: #585b5b;
+.container{
+	text-align: center;
+	background: #f5f5f5;
 }
 
-.box-btn:hover {
-    padding: 3px 20px;
-    background-color:#2adabc;
-    color: #fff;
-    transition: background-color , color 0.3s ease;
-    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.4);
+.header{
+	padding-top: 30px;
+	color: #444;
+	font-size: 20px;
+	margin: auto;
+	line-height: 50px;
 }
 
-#google_translate_element{
-	background-color: #6f6f6ffc;
-	border-left: 0pxsolid#d5d5d5;
-	border-top: 0pxsolid#9b9b9b;
-	border-bottom: 0pxsolid#e8e8e8;
-	border-right: 0pxsolid#d5d5d5;
-	font-size: 7pt;
-	display: inline-block;
+.sub-container{
+	max-width: 1200px;
+	margin: auto;
+	padding: 30px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.teams{
+	margin: 10px;
+	padding: 22px;
+	max-width: 30%;
 	cursor: pointer;
-	margin-top: 11px;
-	zoom: 1;
-	display: inline;
+	transition: 0.4s;
+	box-sizing: border-box;
+}
+
+.teams:hover{
+	background: #ddd;
+	border-radius: 12px; 
+}
+
+.teams img{
+	width: 200px;
+	height: 200px;
+}
+
+.name{
+	padding: 12px;
+	padding-top: 50px;
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.desig{
+	font-style: italic;
+	color: #888;
+}
+
+.about{
+	margin: 20px 0;
+	font-weight: lighter;
+	color: #4e4e4e;
+}
+
+.social-links{
+	margin: 14px;
+}
+
+.social-links a{
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	transition: .4s;
+}
+
+.social-links a:hover{
+	transform: scale(1.5);
+}
+
+.social-links a i{
+	color: #444;
+}
+
+@media screen and (max-width: 600px){
+	.teams{
+		max-width: 100%;
 	}
-#google_translate_element {
-	margin-left: 2px;
-	width: 1px;
-	height: 0px;
-	border: none;
-	vertical-align: middle;
-	}
+}

@@ -310,8 +310,8 @@ nav .menu-btn,
 .services {
 	height: 600px;
 	background-color: #ffffff;
-    padding: 2% 10% 0px 10%;
-    margin-top: 200px;
+    padding : 0 120px;
+    padding-top: 120px;
 }
 
 .services-text p:nth-child(1) {
@@ -395,8 +395,8 @@ nav .menu-btn,
 .box-1 p:nth-child(2),
 .box-2 p:nth-child(2),
 .box-3 p:nth-child(2) {
-	color: #FFFFFF;
-	font-family: calibri;
+	color: #000;
+	font-family: poppins;
 	font-size: 23px;
 	line-height: 0px;
 }
@@ -981,7 +981,8 @@ footer {
 	.c-b-heading{
 		font-size: 1.2rem;
 		text-align: center;
-		margin: 0px 10%;
+        margin: 0px 10%;
+        color: #000000;
 	}
 	.name{
 		width:60%;
@@ -1001,4 +1002,18 @@ footer {
 		width: 100%;
 		height:400px;
 	}
+}
+
+.box-btn {
+    padding: 3px 20px;
+    background-color:transparent;
+    color: #585b5b;
+}
+
+.box-btn:hover {
+    padding: 3px 20px;
+    background-color:#2adabc;
+    color: #fff;
+    transition: background-color , color 0.3s ease;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.4);
 }

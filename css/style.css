@@ -37,7 +37,8 @@ nav {
     top: 0;
     width: 100%;
     z-index: 1;
-    background-color: #FFFFFF;
+	background-color: #FFFFFF;
+	height: 20vh;
 }
 
 .logo {
@@ -94,7 +95,7 @@ nav .menu-btn,
     align-items: center;
     position: absolute;
     left: 50%;
-    top: 8%;
+	top: 8%;;
     transform: translate(-50%, -50%);
 }
 
@@ -310,8 +311,8 @@ nav .menu-btn,
 .services {
 	height: 600px;
 	background-color: #ffffff;
-    padding: 2% 10% 0px 10%;
-    margin-top: 200px;
+    padding : 0 120px;
+    padding-top: 120px;
 }
 
 .services-text p:nth-child(1) {
@@ -395,8 +396,8 @@ nav .menu-btn,
 .box-1 p:nth-child(2),
 .box-2 p:nth-child(2),
 .box-3 p:nth-child(2) {
-	color: #FFFFFF;
-	font-family: calibri;
+	color: #000;
+	font-family: poppins;
 	font-size: 23px;
 	line-height: 0px;
 }
@@ -469,7 +470,7 @@ nav .menu-btn,
 	}
 
 	.services {
-		padding: 2% 5% 0px 5%;
+		padding: 0 100px;
 	}
 
 	.box-container {
@@ -804,7 +805,8 @@ nav .menu-btn,
 	.c-b-heading{
 		font-size: 1.2rem;
 		text-align: center;
-		margin: 0px 10%;
+        margin: 0px 10%;
+        color: #000000;
 	}
 	.name{
 		width:60%;
@@ -825,6 +827,7 @@ nav .menu-btn,
 		height:400px;
 	}
 }
+
 
 .container{
 	text-align: center;
@@ -911,7 +914,22 @@ nav .menu-btn,
 	}
 }
 
-#google_translate_element {
+.box-btn {
+    padding: 3px 20px;
+    background-color:transparent;
+    color: #585b5b;
+}
+
+.box-btn:hover {
+    padding: 3px 20px;
+    background-color:#2adabc;
+    color: #fff;
+    transition: background-color , color 0.3s ease;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+#google_translate_element{
+
 	background-color: #6f6f6ffc;
 	border-left: 0pxsolid#d5d5d5;
 	border-top: 0pxsolid#9b9b9b;
@@ -930,4 +948,4 @@ nav .menu-btn,
 	height: 0px;
 	border: none;
 	vertical-align: middle;
-	}
+}

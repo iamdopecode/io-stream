@@ -4,6 +4,8 @@
 - [Problem Statement](#problem-statement)
 - [Proposed Solution](#proposed-solution)
 - [Team Members](#team-members)
+- [Licencse](#license)
+- [Live Demo](#live-demo)
 
 ### <a name="problem-Statement-track"></a>Problem Statement Track
 
@@ -23,3 +25,11 @@
 
 - Shubham Sharma
 - Navneet Kaur Keer
+
+### <a name="license"></a>License
+
+- This project comes under [MIT License](LICENSE)
+
+### <a name="live-demo"></a>Live demo
+
+Link of live demo of this project [Live Demo](https://io-stream.netlify.app/)

@@ -17,6 +17,10 @@ ul {
     list-style: none;
 }
 
+footer{
+	text-align: center;
+}
+
 a {
     text-decoration: none;
 }
@@ -323,7 +327,7 @@ nav .menu-btn,
     line-height: 0px;
     display: flex;
     justify-content:center;
-    margin-left: 540px;
+    margin-left: 650px;
 }
 
 .services-text p:nth-child(2) {
@@ -353,11 +357,11 @@ nav .menu-btn,
 .box-1,
 .box-2,
 .box-3 {
-	width: 300px;
-	height: 320px;
+	width: 400px;
+	height: 400px;
 	background-repeat: no-repeat;
 	background-size: cover;
-	box-shadow: 2px 2px 18px rgba(0, 0, 0, 0.3);
+	
 	align-items: center;
 	justify-content: center;
 	display: flex;
@@ -368,15 +372,15 @@ nav .menu-btn,
 }
 
 .box-1 {
-	background-image: url("../images/services-1.png");
+	background-image: url("../images/design.svg");
 }
 
 .box-2 {
-	background-image: url("../images/services-2.png");
+	background-image: url("../images/design.svg");
 }
 
 .box-3 {
-	background-image: url("../images/servies-3.png");
+	background-image: url("../images/design.svg");
 }
 
 .box-1 span,
@@ -828,8 +832,6 @@ nav .menu-btn,
 	}
 }
 
-<<<<<<< Updated upstream
-=======
 .container{
 	text-align: center;
 	background: #f5f5f5;
@@ -870,10 +872,8 @@ nav .menu-btn,
 	width: 200px;
 	height: 200px;
 }
->>>>>>> Stashed changes
 
 
-<<<<<<< Updated upstream
 .box-btn {
     padding: 3px 20px;
     background-color:transparent;
@@ -915,7 +915,6 @@ footer h3 {
 	left: 100;
 	bottom: 0;
 }}
-=======
 .social-links{
 	margin: 14px;
 }
@@ -940,4 +939,3 @@ footer h3 {
 		max-width: 100%;
 	}
 }
->>>>>>> Stashed changes
